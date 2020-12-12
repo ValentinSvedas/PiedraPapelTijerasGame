@@ -1,0 +1,86 @@
+body{
+    background-color: grey;
+}
+img{
+    width: 100%;
+    height: 150px;
+}
+h1{
+    text-align: center;
+    color: rgba(255, 255, 255, 0.863);
+    text-shadow: 5px 5px 3px rgb(121, 112, 97);
+    font-size: 50px;
+}
+.game-box{
+    border: 3px double white;
+    width: 75%;
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    
+}
+.centrar, .game-box{
+    margin: auto;
+    text-align: center;
+}
+
+.consola{
+    text-align: center;
+    margin-top: 20px;
+    color: rgb(171, 196, 132);
+    width: 60%;
+}
+#subcuerpo{
+    width: 100%;
+    height: 150px;
+    text-align: center;
+    color: wheat;
+}
+#boton-juego{
+    background-color: rgb(39, 189, 39);
+    border: rgb(18, 138, 18) 4px dashed;
+    border-radius: 15%;
+    font-weight: 100px;
+    width: 80px;
+    height: 50px;
+    margin-top: 25px;
+    
+}
+
+table{
+    
+    border-spacing: 0px;
+}
+td{
+    border:  darkred solid 1px;
+        border-spacing: 0px;
+    
+}
+#puntaje{
+    width: 40%;
+    margin-top: 20px;
+    color: wheat
+}
+#partida{
+    margin-top: 30px ;
+    display: flex;
+    flex-direction: row;
+    height: 210px;
+}
+#jugador, #computadora{
+    width:50%;
+    border: rgb(160, 28, 105) 1px solid;
+}
+.ganaste{
+    color: green;
+}
+.perdiste{
+    color: red;
+}
+.empate{
+    color: grey;
+}
+#resultado{
+    font-size: 50px;
+}
+
